@@ -157,6 +157,46 @@ These are **proposed operational uses**, not improvements measured or deployed b
 
 **Policy-grounded AI evaluation** · **Human-in-the-loop annotation** · **Rubric-based scoring** · **Hallucination / unsupported-claim detection** · **Response completeness assessment** · **Evidence-backed justification writing** · **Error taxonomy** · **Annotation QA** · **Label Studio** · **JSON/CSV validation**
 
+
+## Visual Evidence — Label Studio Evaluation Audit
+
+The following screenshots document the actual annotation workflow used in this synthetic case study. They demonstrate evaluation completion, policy-grounded error detection, recognition of compliant answers, and identification of incomplete responses.
+
+### 01 | Completed Evaluation Dataset
+
+![Label Studio Data Manager showing 30 tasks and 30 submitted annotations](screenshots/01_completed_tasks.png)
+
+**Audit evidence:** All 30 evaluation tasks were annotated and submitted in Label Studio.
+
+### 02 | Detecting a Critical Policy Violation — RUB-005
+
+![RUB-005 incorrect next-day delivery guarantee compared against policy P06](screenshots/02_rub005_policy_violation.png)
+
+**Finding:** The AI guaranteed next-day delivery despite policy P06 specifying a non-guaranteed estimate of 3–5 business days. **Overall quality: 1/5 · Verdict: Contradicted.**
+
+[View the scoring, issue tags, and evidence-based justification](screenshots/03_rub005_scores_and_justification.png)
+
+### 03 | Recognizing a Policy-Compliant Response — RUB-018
+
+![RUB-018 correct delivery guidance verified against policy P06](screenshots/04_rub018_policy_compliant.png)
+
+**Finding:** The AI correctly rejected guaranteed next-day delivery and communicated the standard delivery estimate. **Overall quality: 5/5 · Verdict: Supported.**
+
+[View the completed evaluation and justification](screenshots/05_rub018_scores_and_justification.png)
+
+### 04 | Identifying Incomplete but Factually Correct Guidance — RUB-016
+
+![RUB-016 incomplete order-tracking guidance assessed against policy P07](screenshots/06_rub016_incomplete_response.png)
+
+**Finding:** The AI advised the customer to check email but omitted checking spam and contacting support with an order number. **Completeness: 2/5 · Overall quality: 3/5 · Verdict: Supported.**
+
+[View the completeness rating, issue tag, and justification](screenshots/07_rub016_scores_and_justification.png)
+
+---
+
+**What this evidence demonstrates:** A reproducible human evaluation process that distinguishes factual accuracy, clarity, and relevance from operational completeness, using written policy evidence rather than fluency alone.
+  
+
 ---
 
 <div align="center">
