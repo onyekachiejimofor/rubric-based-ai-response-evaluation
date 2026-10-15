@@ -1,0 +1,34 @@
+{
+  "record_count": 30,
+  "submitted_annotation_count": 30,
+  "distinct_record_ids": 30,
+  "overall_score_distribution": {
+    "1": 10,
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 14
+  },
+  "mean_overall_score": 3.33,
+  "mean_dimension_scores": {
+    "factual_accuracy": 3.5,
+    "relevance": 4.97,
+    "completeness": 3.17,
+    "clarity": 4.93
+  },
+  "evidence_verdict_distribution": {
+    "Supported": 19,
+    "Contradicted": 11,
+    "Insufficient evidence": 0
+  },
+  "issue_tag_counts": {
+    "Incorrect company policy": 8,
+    "Invented guarantee or unsupported claim": 9,
+    "Missing key details": 4,
+    "Vague or unclear response": 1,
+    "Wrong contact or location": 1
+  },
+  "annotators_in_export": 1,
+  "review_status": "All 30 cases have complete annotations; saved overall scores agree with justification openings. Native JSON/CSV and the blind task-data fields agree. Previously reported RUB-003, RUB-006, RUB-008, RUB-010 and RUB-016 issues have been resolved. RUB-004 has one optional quotation-style refinement.",
+  "limitations": "Synthetic reference facts; one annotator; descriptive label distributions only; no inter-annotator agreement or external accuracy measurement."
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "data": {
+      "record_id": "RUB-001",
+      "organization": "Northstar Home",
+      "case_category": "Returns",
+      "prompt": "How do I return a desk lamp?",
+      "ai_response": "You can request a return within 30 days of delivery. Keep the item unused and contact support with your order number.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P01, P02",
+      "reference_context": "P01 — Return eligibility: Change-of-mind return requests must be made within 30 calendar days after delivery. The item must be unused, in its original condition and packaging, and the customer must provide the order number. A request is reviewed; approval is not automatic.\n\nP02 — How to request a return: To start an eligible return, email care@northstarhome.example and include the order number and the item to be returned. The support team will review eligibility and provide instructions. Do not send items to the headquarters without authorization."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-002",
+      "organization": "Northstar Home",
+      "case_category": "Refunds",
+      "prompt": "When will my refund arrive?",
+      "ai_response": "Once a refund is approved, allow 5–7 business days for processing.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P03",
+      "reference_context": "P03 — Refund processing: Once a refund is approved, allow 5–7 business days for processing. Refunds are issued to the original payment method. An exact bank posting date cannot be promised."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-003",
+      "organization": "Northstar Home",
+      "case_category": "Returns",
+      "prompt": "Can I return a used sofa after 45 days?",
+      "ai_response": "Yes, all items can be returned at any time.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P01",
+      "reference_context": "P01 — Return eligibility: Change-of-mind return requests must be made within 30 calendar days after delivery. The item must be unused, in its original condition and packaging, and the customer must provide the order number. A request is reviewed; approval is not automatic."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-004",
+      "organization": "Northstar Home",
+      "case_category": "Support",
+      "prompt": "What are your support hours?",
+      "ai_response": "Our team is available Monday to Friday, 09:00–17:00 WAT.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P04",
+      "reference_context": "P04 — Customer support: The only official customer-support email is care@northstarhome.example. Email support is available Monday–Friday from 09:00 to 17:00 West Africa Time (WAT, UTC+1). The company does not publish a phone-support number."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-005",
+      "organization": "Northstar Home",
+      "case_category": "Delivery",
+      "prompt": "Can you guarantee delivery tomorrow?",
+      "ai_response": "Delivery is guaranteed tomorrow for every order.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P06",
+      "reference_context": "P06 — Standard delivery: Standard domestic delivery is estimated at 3–5 business days after order confirmation. It is an estimate, not a guaranteed arrival date. Northstar Home does not guarantee next-day delivery."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-006",
+      "organization": "Northstar Home",
+      "case_category": "Headquarters",
+      "prompt": "Where is your office?",
+      "ai_response": "Northstar Home is headquartered in Enugu.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P05",
+      "reference_context": "P05 — Headquarters: Northstar Home headquarters: Suite 202, 18 Palm Grove Crescent, Independence Layout, Enugu, Enugu State, Nigeria. This is a fictional training address. The headquarters is an administrative office and does not accept walk-in returns."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-007",
+      "organization": "Northstar Home",
+      "case_category": "Support",
+      "prompt": "What is your support email?",
+      "ai_response": "Write to support@northstarhome.example.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P04",
+      "reference_context": "P04 — Customer support: The only official customer-support email is care@northstarhome.example. Email support is available Monday–Friday from 09:00 to 17:00 West Africa Time (WAT, UTC+1). The company does not publish a phone-support number."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-008",
+      "organization": "Northstar Home",
+      "case_category": "Returns",
+      "prompt": "Can I return an item after 20 days?",
+      "ai_response": "Northstar Home accepts return requests within 30 days of delivery. Check the item's condition and contact support with your order number.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P01, P02",
+      "reference_context": "P01 — Return eligibility: Change-of-mind return requests must be made within 30 calendar days after delivery. The item must be unused, in its original condition and packaging, and the customer must provide the order number. A request is reviewed; approval is not automatic.\n\nP02 — How to request a return: To start an eligible return, email care@northstarhome.example and include the order number and the item to be returned. The support team will review eligibility and provide instructions. Do not send items to the headquarters without authorization."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-009",
+      "organization": "Northstar Home",
+      "case_category": "Shipping & wrong item",
+      "prompt": "I received the wrong lamp. Will I have to pay return shipping?",
+      "ai_response": "Yes. Every customer must pay return-shipping fees, even when we sent the wrong item.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P10, P11",
+      "reference_context": "P10 — Damaged or incorrect items: A damaged-item or wrong-item claim must be reported within 48 hours of delivery by emailing care@northstarhome.example with the order number and clear photos. Confirmed wrong-item or damaged-item cases are eligible for a company-paid return and remedy after review. Late reports are not guaranteed approval.\n\nP11 — Return shipping charges: For an eligible change-of-mind return, the customer pays the return-shipping charge. For a confirmed damaged or wrong item, Northstar Home pays the return-shipping charge."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-010",
+      "organization": "Northstar Home",
+      "case_category": "Damaged items",
+      "prompt": "My vase arrived broken yesterday. What should I send to report it?",
+      "ai_response": "Email care@northstarhome.example within 48 hours of delivery with your order number and clear photos of the damage.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P04, P10",
+      "reference_context": "P04 — Customer support: The only official customer-support email is care@northstarhome.example. Email support is available Monday–Friday from 09:00 to 17:00 West Africa Time (WAT, UTC+1). The company does not publish a phone-support number.\n\nP10 — Damaged or incorrect items: A damaged-item or wrong-item claim must be reported within 48 hours of delivery by emailing care@northstarhome.example with the order number and clear photos. Confirmed wrong-item or damaged-item cases are eligible for a company-paid return and remedy after review. Late reports are not guaranteed approval."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-011",
+      "organization": "Northstar Home",
+      "case_category": "Cancellations",
+      "prompt": "Can I cancel my order before it is dispatched?",
+      "ai_response": "Yes. Email care@northstarhome.example with your order number before dispatch to request cancellation.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P04, P08",
+      "reference_context": "P04 — Customer support: The only official customer-support email is care@northstarhome.example. Email support is available Monday–Friday from 09:00 to 17:00 West Africa Time (WAT, UTC+1). The company does not publish a phone-support number.\n\nP08 — Order cancellation: Customers may request order cancellation before dispatch by emailing care@northstarhome.example with their order number. Orders cannot be cancelled after dispatch; eligible items may be considered for return after delivery."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-012",
+      "organization": "Northstar Home",
+      "case_category": "Cancellations",
+      "prompt": "My parcel was already dispatched. Can you cancel it immediately?",
+      "ai_response": "Yes, we can always cancel an order after it has been dispatched.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P08",
+      "reference_context": "P08 — Order cancellation: Customers may request order cancellation before dispatch by emailing care@northstarhome.example with their order number. Orders cannot be cancelled after dispatch; eligible items may be considered for return after delivery."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-013",
+      "organization": "Northstar Home",
+      "case_category": "Address changes",
+      "prompt": "Can I update my delivery address before the package ships?",
+      "ai_response": "Please email care@northstarhome.example with your order number before dispatch to request the address change.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P04, P09",
+      "reference_context": "P04 — Customer support: The only official customer-support email is care@northstarhome.example. Email support is available Monday–Friday from 09:00 to 17:00 West Africa Time (WAT, UTC+1). The company does not publish a phone-support number.\n\nP09 — Delivery address changes: Delivery-address changes can be requested by emailing care@northstarhome.example with the order number before dispatch. Changes are not guaranteed after dispatch."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-014",
+      "organization": "Northstar Home",
+      "case_category": "Address changes",
+      "prompt": "Once my order is shipped, is changing the address guaranteed?",
+      "ai_response": "Yes, your shipping address can always be changed after dispatch.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P09",
+      "reference_context": "P09 — Delivery address changes: Delivery-address changes can be requested by emailing care@northstarhome.example with the order number before dispatch. Changes are not guaranteed after dispatch."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-015",
+      "organization": "Northstar Home",
+      "case_category": "Tracking",
+      "prompt": "How do I track my order?",
+      "ai_response": "We email a tracking link when your order is dispatched. Check the dispatch email; if the link is missing, contact care@northstarhome.example with your order number.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P04, P07",
+      "reference_context": "P04 — Customer support: The only official customer-support email is care@northstarhome.example. Email support is available Monday–Friday from 09:00 to 17:00 West Africa Time (WAT, UTC+1). The company does not publish a phone-support number.\n\nP07 — Order tracking: A tracking link is emailed to the customer when the order is dispatched. If it is missing after dispatch, the customer should check their email, including spam, then contact care@northstarhome.example with their order number."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-016",
+      "organization": "Northstar Home",
+      "case_category": "Tracking",
+      "prompt": "My parcel has shipped but there is no tracking link. What should I do?",
+      "ai_response": "Check your email.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P07",
+      "reference_context": "P07 — Order tracking: A tracking link is emailed to the customer when the order is dispatched. If it is missing after dispatch, the customer should check their email, including spam, then contact care@northstarhome.example with their order number."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-017",
+      "organization": "Northstar Home",
+      "case_category": "Delivery",
+      "prompt": "What is your standard delivery timeline?",
+      "ai_response": "It should take about a week, give or take.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P06",
+      "reference_context": "P06 — Standard delivery: Standard domestic delivery is estimated at 3–5 business days after order confirmation. It is an estimate, not a guaranteed arrival date. Northstar Home does not guarantee next-day delivery."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-018",
+      "organization": "Northstar Home",
+      "case_category": "Delivery",
+      "prompt": "Do you guarantee next-day delivery?",
+      "ai_response": "No. We cannot guarantee next-day delivery. Standard delivery is estimated at 3–5 business days after order confirmation.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P06",
+      "reference_context": "P06 — Standard delivery: Standard domestic delivery is estimated at 3–5 business days after order confirmation. It is an estimate, not a guaranteed arrival date. Northstar Home does not guarantee next-day delivery."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-019",
+      "organization": "Northstar Home",
+      "case_category": "Payments",
+      "prompt": "Can I pay cash when the delivery arrives?",
+      "ai_response": "Yes. Cash on delivery is available for every order in Nigeria.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P13",
+      "reference_context": "P13 — Accepted payments: Northstar Home accepts Visa and Mastercard debit/credit cards and bank transfer. Cash on delivery is not available."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-020",
+      "organization": "Northstar Home",
+      "case_category": "Payments",
+      "prompt": "Which payment methods do you accept?",
+      "ai_response": "We accept Visa and Mastercard debit or credit cards and bank transfer. Cash on delivery is not available.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P13",
+      "reference_context": "P13 — Accepted payments: Northstar Home accepts Visa and Mastercard debit/credit cards and bank transfer. Cash on delivery is not available."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-021",
+      "organization": "Northstar Home",
+      "case_category": "Exchanges & office",
+      "prompt": "Can I exchange my cushion for another color at the office?",
+      "ai_response": "Of course. Bring it to our Enugu office anytime and we will exchange it immediately.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P05, P12, P14",
+      "reference_context": "P05 — Headquarters: Northstar Home headquarters: Suite 202, 18 Palm Grove Crescent, Independence Layout, Enugu, Enugu State, Nigeria. This is a fictional training address. The headquarters is an administrative office and does not accept walk-in returns.\n\nP12 — Exchanges: Northstar Home does not offer direct product exchanges. A customer seeking another color or model should request an eligible return and place a separate new order.\n\nP14 — Support and returns at headquarters: The Enugu headquarters is an administrative office, not a customer-service counter or returns drop-off point. Customers must first contact care@northstarhome.example for support or returns instructions."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-022",
+      "organization": "Northstar Home",
+      "case_category": "Exchanges",
+      "prompt": "I want a different color. How can I exchange my item?",
+      "ai_response": "We do not offer direct exchanges. If the item is eligible, request a return and place a separate order for the new color.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P01, P02, P12",
+      "reference_context": "P01 — Return eligibility: Change-of-mind return requests must be made within 30 calendar days after delivery. The item must be unused, in its original condition and packaging, and the customer must provide the order number. A request is reviewed; approval is not automatic.\n\nP02 — How to request a return: To start an eligible return, email care@northstarhome.example and include the order number and the item to be returned. The support team will review eligibility and provide instructions. Do not send items to the headquarters without authorization.\n\nP12 — Exchanges: Northstar Home does not offer direct product exchanges. A customer seeking another color or model should request an eligible return and place a separate new order."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-023",
+      "organization": "Northstar Home",
+      "case_category": "Returns",
+      "prompt": "My chair arrived 25 days ago but I used it. Will my change-of-mind return be accepted?",
+      "ai_response": "Yes. Since it is within 30 days, the return will definitely be approved.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P01",
+      "reference_context": "P01 — Return eligibility: Change-of-mind return requests must be made within 30 calendar days after delivery. The item must be unused, in its original condition and packaging, and the customer must provide the order number. A request is reviewed; approval is not automatic."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-024",
+      "organization": "Northstar Home",
+      "case_category": "Returns",
+      "prompt": "Can I return an unused item 31 days after it was delivered?",
+      "ai_response": "The change-of-mind return deadline is 30 calendar days after delivery, so a day-31 request is outside the standard return policy.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P01",
+      "reference_context": "P01 — Return eligibility: Change-of-mind return requests must be made within 30 calendar days after delivery. The item must be unused, in its original condition and packaging, and the customer must provide the order number. A request is reviewed; approval is not automatic."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-025",
+      "organization": "Northstar Home",
+      "case_category": "Return shipping",
+      "prompt": "If I return an unused rug because I no longer want it, who pays shipping?",
+      "ai_response": "For an eligible change-of-mind return, you pay the return-shipping cost.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P01, P11",
+      "reference_context": "P01 — Return eligibility: Change-of-mind return requests must be made within 30 calendar days after delivery. The item must be unused, in its original condition and packaging, and the customer must provide the order number. A request is reviewed; approval is not automatic.\n\nP11 — Return shipping charges: For an eligible change-of-mind return, the customer pays the return-shipping charge. For a confirmed damaged or wrong item, Northstar Home pays the return-shipping charge."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-026",
+      "organization": "Northstar Home",
+      "case_category": "Office & returns",
+      "prompt": "Can I drop off a return at your Enugu headquarters?",
+      "ai_response": "Yes. Visit Suite 202, 18 Palm Grove Crescent and leave the package at reception without contacting support.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P02, P05, P14",
+      "reference_context": "P02 — How to request a return: To start an eligible return, email care@northstarhome.example and include the order number and the item to be returned. The support team will review eligibility and provide instructions. Do not send items to the headquarters without authorization.\n\nP05 — Headquarters: Northstar Home headquarters: Suite 202, 18 Palm Grove Crescent, Independence Layout, Enugu, Enugu State, Nigeria. This is a fictional training address. The headquarters is an administrative office and does not accept walk-in returns.\n\nP14 — Support and returns at headquarters: The Enugu headquarters is an administrative office, not a customer-service counter or returns drop-off point. Customers must first contact care@northstarhome.example for support or returns instructions."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-027",
+      "organization": "Northstar Home",
+      "case_category": "Office & returns",
+      "prompt": "Where is your headquarters, and can I visit to return a product?",
+      "ai_response": "Our headquarters is Suite 202, 18 Palm Grove Crescent, Independence Layout, Enugu, Nigeria. It is an administrative office, not a returns drop-off point; contact care@northstarhome.example first.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P02, P04, P05, P14",
+      "reference_context": "P02 — How to request a return: To start an eligible return, email care@northstarhome.example and include the order number and the item to be returned. The support team will review eligibility and provide instructions. Do not send items to the headquarters without authorization.\n\nP04 — Customer support: The only official customer-support email is care@northstarhome.example. Email support is available Monday–Friday from 09:00 to 17:00 West Africa Time (WAT, UTC+1). The company does not publish a phone-support number.\n\nP05 — Headquarters: Northstar Home headquarters: Suite 202, 18 Palm Grove Crescent, Independence Layout, Enugu, Enugu State, Nigeria. This is a fictional training address. The headquarters is an administrative office and does not accept walk-in returns.\n\nP14 — Support and returns at headquarters: The Enugu headquarters is an administrative office, not a customer-service counter or returns drop-off point. Customers must first contact care@northstarhome.example for support or returns instructions."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-028",
+      "organization": "Northstar Home",
+      "case_category": "Refunds",
+      "prompt": "Could you send an approved refund to a different bank account?",
+      "ai_response": "Approved refunds go to the original payment method, not a different bank account. Processing usually takes 5–7 business days after approval.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P03",
+      "reference_context": "P03 — Refund processing: Once a refund is approved, allow 5–7 business days for processing. Refunds are issued to the original payment method. An exact bank posting date cannot be promised."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-029",
+      "organization": "Northstar Home",
+      "case_category": "Damaged & wrong items",
+      "prompt": "I received the wrong item three days ago. Is a free replacement guaranteed?",
+      "ai_response": "Yes. Wrong-item claims can be filed at any time and every replacement is guaranteed.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P10",
+      "reference_context": "P10 — Damaged or incorrect items: A damaged-item or wrong-item claim must be reported within 48 hours of delivery by emailing care@northstarhome.example with the order number and clear photos. Confirmed wrong-item or damaged-item cases are eligible for a company-paid return and remedy after review. Late reports are not guaranteed approval."
+    }
+  },
+  {
+    "data": {
+      "record_id": "RUB-030",
+      "organization": "Northstar Home",
+      "case_category": "Support",
+      "prompt": "What phone number can I call for customer support?",
+      "ai_response": "We do not publish a phone-support number. You can reach our team at care@northstarhome.example Monday–Friday, 09:00–17:00 WAT.",
+      "rubric_dimensions": "factual accuracy; relevance; completeness; clarity",
+      "source_policy_ids": "P04",
+      "reference_context": "P04 — Customer support: The only official customer-support email is care@northstarhome.example. Email support is available Monday–Friday from 09:00 to 17:00 West Africa Time (WAT, UTC+1). The company does not publish a phone-support number."
+    }
+  }
+]

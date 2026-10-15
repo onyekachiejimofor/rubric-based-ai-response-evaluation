@@ -1,0 +1,55 @@
+<View>
+  <Style>.htx-text { white-space: pre-wrap; }</Style>
+  <Header value="Project 01 v2 — Rubric-Based AI Response Evaluation"/>
+  <Text name="record_identifier" value="$record_id"/>
+  <Header value="Organization" size="5"/>
+  <Text name="organization_text" value="$organization"/>
+  <Header value="Customer question"/>
+  <Text name="prompt_text" value="$prompt"/>
+  <Header value="AI-generated response (evaluate this)"/>
+  <View style="padding:12px; border:1px solid #a4a4a4;">
+    <Text name="response_text" value="$ai_response"/>
+  </View>
+  <Header value="Reference context — fictional policy ground truth"/>
+  <View style="padding:12px; border:1px solid #a4a4a4;">
+    <Text name="reference_context_text" value="$reference_context"/>
+  </View>
+  <Header value="Policy references" size="5"/>
+  <Text name="policy_ids_text" value="$source_policy_ids"/>
+  <Header value="Evaluation rubric (1 = poor, 5 = excellent)"/>
+  <Text name="rubric_text" value="$rubric_dimensions"/>
+  <Header value="Factual accuracy" size="5"/>
+  <Rating name="factual_accuracy_score" toName="response_text" maxRating="5" required="true"/>
+  <Header value="Relevance" size="5"/>
+  <Rating name="relevance_score" toName="response_text" maxRating="5" required="true"/>
+  <Header value="Completeness" size="5"/>
+  <Rating name="completeness_score" toName="response_text" maxRating="5" required="true"/>
+  <Header value="Clarity" size="5"/>
+  <Rating name="clarity_score" toName="response_text" maxRating="5" required="true"/>
+  <Header value="Overall quality score" size="5"/>
+  <Choices name="overall_score" toName="response_text" choice="single-radio" required="true" showInline="true">
+    <Choice value="1"/>
+    <Choice value="2"/>
+    <Choice value="3"/>
+    <Choice value="4"/>
+    <Choice value="5"/>
+  </Choices>
+  <Header value="Factual-evidence verdict" size="5"/>
+  <Choices name="evidence_verdict" toName="response_text" choice="single-radio" required="true">
+    <Choice value="Supported"/>
+    <Choice value="Contradicted"/>
+    <Choice value="Insufficient evidence"/>
+  </Choices>
+  <Header value="Problems observed (multiple allowed)" size="5"/>
+  <Choices name="issue_tags" toName="response_text" choice="multiple">
+    <Choice value="Incorrect company policy"/>
+    <Choice value="Invented guarantee or unsupported claim"/>
+    <Choice value="Wrong contact or location"/>
+    <Choice value="Missing key details"/>
+    <Choice value="Vague or unclear response"/>
+  </Choices>
+  <Header value="Required evaluation justification" size="5"/>
+  <TextArea name="evaluator_justification" toName="response_text" rows="4" maxSubmissions="1" editable="true" required="true" placeholder="Give specific evidence, quoting the policy ID (e.g., P04), and explain your rating."/>
+  <Header value="Optional: improved corrected response" size="5"/>
+  <TextArea name="corrected_response" toName="response_text" rows="3" maxSubmissions="1" editable="true" placeholder="If needed, rewrite the AI answer to align with the fictional reference facts."/>
+</View>
